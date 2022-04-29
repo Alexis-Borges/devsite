@@ -1,0 +1,70 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'poppins' ,sans-serif;  
+    background-color: silver;
+
+}
+
+h1 {
+    font-size: 60px;
+    line-height: 160px;
+    margin: 4px;
+    margin-left: 30px;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    margin-left: 15px;
+    font-weight: 600;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5px 0;
+}
+
+.binance {
+    float: left;
+    width: 100px;
+    margin: 25px 3%;
+}
+
+.premierelist li {
+    padding: 20px;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.premierelist li::marker {
+    font-family: FontAwesome;
+    align-items: center;
+    font-size: 30px;
+    content: "\f15a";
+}
+
+.coinbase {
+    float: left;
+    width: 100px;
+    margin: 25px 3%;
+}
+
+.secondelist li {
+    padding: 20px;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.secondelist li::marker {
+    font-family: FontAwesome;
+    align-items: center;
+    font-size: 30px;
+    content: "\f103";
+}
+
