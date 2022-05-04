@@ -131,7 +131,7 @@ nav ul li a:hover::after {
 nav ul li a {
   color: transparent;
   -webkit-text-stroke: 1px white;
-  background: url(images/back.png);
+  background: url(/images/back.png);
   -webkit-background-clip: text;
   animation: back 20s linear infinite;
 }
